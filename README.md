@@ -3,7 +3,7 @@ This Application has three projects:
 1. "ToyRobotDemo" 
   - is where the starting point of the program located ("Program.cs") - Go there and press the start button in VS 2015, the program will run.
 2. "ToyRobotDemo.Core" 
-  - Contains all concepts like Directions (North, South...), Commands (MOVE, LEFT, RIGHT, PLACE...) in "Enum.cs"
+  - Contains all concepts like Directions (North, South...), Commands (MOVE, LEFT, RIGHT, PLACE...) in "Enum.cs", Position.cs describe a position on a table.
   - Contain all the abstractions, interfaces (IRobot, ISimulator, AbstractTable...) and their implementation classes respectively (Robot, Simulator, Table...)
   - Note that you can also create a table with block points on it "Table.Create(int x, int y,List<Tuple<int,int>> blockPoints)
 3. "ToyRobotDemo.UnitTests"
