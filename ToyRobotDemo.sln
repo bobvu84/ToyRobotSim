@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotDemo", "ToyRobotDemo\ToyRobotDemo.csproj", "{116FEC3C-CEE1-4B46-AB13-F453AD128C5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotDemo.Core", "ToyRobotDemo.Core\ToyRobotDemo.Core.csproj", "{68A78D9F-E1DD-4DC2-BB74-9F319DD30FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotDemo.UnitTests", "ToyRobotDemo.UnitTests\ToyRobotDemo.UnitTests.csproj", "{4BAE4F73-7BC3-49B1-AD62-6D318E07B466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{116FEC3C-CEE1-4B46-AB13-F453AD128C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{116FEC3C-CEE1-4B46-AB13-F453AD128C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{116FEC3C-CEE1-4B46-AB13-F453AD128C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A78D9F-E1DD-4DC2-BB74-9F319DD30FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A78D9F-E1DD-4DC2-BB74-9F319DD30FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A78D9F-E1DD-4DC2-BB74-9F319DD30FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A78D9F-E1DD-4DC2-BB74-9F319DD30FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAE4F73-7BC3-49B1-AD62-6D318E07B466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAE4F73-7BC3-49B1-AD62-6D318E07B466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAE4F73-7BC3-49B1-AD62-6D318E07B466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAE4F73-7BC3-49B1-AD62-6D318E07B466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
