@@ -1,5 +1,5 @@
 # ToyRobotSim
-This Application has three projects:
+This is a Console Application written in C# using VS 2015. The Application has three projects:
 1. "ToyRobotDemo" 
   - is where the starting point of the program located ("Program.cs") - Go there and press the start button in VS 2015, the program will run.
 2. "ToyRobotDemo.Core" 
@@ -9,4 +9,7 @@ This Application has three projects:
 3. "ToyRobotDemo.UnitTests"
   - this project has all the unit tests to test a Robot/Simulator 's behaviors written using MSTest
   - Go there and run the test case normally
+  
+Design principles used: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Injection principles (SOLID)
+
   
